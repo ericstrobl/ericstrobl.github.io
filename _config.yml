@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Eric V. Strobl"
 title_separator          : "-"
 name                     : &name "Eric V. Strobl"
-description              : &description "I am an Assistant Professor of Biomedical Informatics at the University of Pittsburgh and a practicing child and adolescent psychiatrist. My research centers on developing novel computational methods that leverage both clinical expertise and methodological rigor. I tend to pursue highly unconventional directions, exploring questions and techniques that are rarely addressed in the field, with the goal of generating foundational discoveries with real clinical impact."
+description              : &description "Eric V. Strobl's academic webpage"
 url                      : https://ericstrobl.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -22,10 +22,10 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  avatar           : "Strobl_professional_photo.jpg"
+  name             : "Eric V. Strobl"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Assistant Professor of Biomedical Informatics"
   location         : "Pittsburgh, Pennsylvania, United States"
   employer         : "University of Pittsburgh"
   uri              : # URL
@@ -47,7 +47,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "ericstrobl"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
