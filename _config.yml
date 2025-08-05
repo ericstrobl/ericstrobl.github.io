@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "Strobl_professional_photo.jpg"
-  name             : "Eric V. Strobl"
+  name             : # "Eric V. Strobl"
   pronouns         : # example: "she/her"  
-  bio              : "Assistant Professor of Biomedical Informatics"
+  bio              : # "Assistant Professor of Biomedical Informatics"
   location         : "Pittsburgh, Pennsylvania, United States"
   employer         : "University of Pittsburgh"
   uri              : # URL
