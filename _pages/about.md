@@ -11,7 +11,8 @@ Welcome! I am an Assistant Professor of Biomedical Informatics at the University
 
 Recent Inventions & Discoveries
 ======
-- Oxytocin enhances social-emotional reciprocity in autism [paper](https://www.medrxiv.org/content/10.1101/2025.07.20.25331870v1): an application of the recently SCORE algorithm identifies subtle effects of oxytocin overlooked by total scores and subscores
-- We can leverage the time-limited effects of treatment to perform causal inference even with latent confounding [paper](https://arxiv.org/pdf/2506.16629)
-- Bupropion and mirtazapine are consistently differentiable from other antidepressants [paper][https://arxiv.org/pdf/2506.16629](https://www.sciencedirect.com/science/article/pii/S0165032725009930): an application of Supervised Variamax identifies consistent differential effects of bupropion and mirtazapine from other antidepressants.
+- **Oxytocin enhances social-emotional reciprocity in autism** [[paper](https://www.medrxiv.org/content/10.1101/2025.07.20.25331870v1)]: We uncovered subtle, robust effects of oxytocin on social-emotional reciprocity -- addressing a long-standing challenge in the field, where conventional total scores and subscores have repeatedly failed to detect consistent benefits.
+- **Causal inference with latent confounding via time-limited treatment effects** [[paper](https://arxiv.org/pdf/2506.16629)]: We demonstrate that the transient nature of certain treatments enables robust causal inference, even in the presence of latent confounders.
+- **Differentiating bupropion and mirtazapine from other antidepressants** [[paper](https://www.sciencedirect.com/science/article/pii/S0165032725009930)]: We identified consistent, clinically meaningful differential effects of bupropion and mirtazapine, addressing a long-standing problem in psychiatry where randomized controlled trials have failed to distinguish these medications despite clear clinical differences.
+
 
