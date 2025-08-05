@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am an Assistant Professor of Biomedical Informatics at the University of Pittsburgh and a practicing child and adolescent psychiatrist. My research centers on developing novel computational methods that combine methodological rigor with clinical expertise. I am particularly drawn to unconventional and independent research directions, pursuing deeply focused inquiry into fundamental problems that are often unrecognized or considered intractable. My overarching aim is to generate foundational discoveries that have meaningful impact on patient care.
+Welcome! I am an Assistant Professor of Biomedical Informatics at the University of Pittsburgh and a practicing child and adolescent psychiatrist in the Center for Autism and Developmental Disorders. My research centers on developing novel computational methods that combine methodological rigor with clinical expertise. I am particularly drawn to unconventional and independent research directions, pursuing deeply focused inquiry into fundamental problems that are often unrecognized or considered intractable. My overarching aim is to generate foundational discoveries that have meaningful impact on patient care.
 
 Recent Inventions & Discoveries
 ======
