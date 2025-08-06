@@ -1,3 +1,9 @@
+---
+layout: page
+title: Students
+permalink: /students/
+---
+
 Current:
 
 - **Semmie Kim**  
