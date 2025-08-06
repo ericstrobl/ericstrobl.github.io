@@ -1,11 +1,9 @@
----
-students:
-  - name: Semmie Kim
-    program: Biomedical Informatics
-    degree: MS, PhD
-    years: 2024-current
-  - name: Hannah Luo
-    program: CoSBBI
-    degree: High school student
-    years: Summer 2025
----
+- **Semmie Kim**  
+  *Program*: Biomedical Informatics  
+  *Degree*: MS, PhD  
+  *Years*: 2024–current
+
+- **Hannah Luo**  
+  *Program*: CoSBBI  
+  *Degree*: High school student  
+  *Years*: Summer 2025
