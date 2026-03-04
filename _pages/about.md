@@ -15,6 +15,9 @@ Outcome Learning
 ======
 I develop data-adaptive methods for constructing composite outcomes that are explicitly aligned with the scientific or clinical task. Rather than treating outcomes as fixed, these approaches learn clinically interpretable outcome measures optimized for prediction, treatment differentiation, or causal analysis, with applications across psychiatry.
 
+- Strobl, Eric V. "Task-Aligned Outcome Learning in Psychiatry: Reducing Endpoint Dilution." Eric V. Strobl's Personal Webpage (2026): https://ericstrobl.github.io/ Accessed March 4 2026.
+
+This Perspective articulates why outcome learning matters and provides practical guidance for using it responsibly, without sliding into endpoint shopping. I host it here because many preprint servers do not accept Perspective articles.
 - Strobl, Eric V. "Oxytocin Enhances Social-Emotional Reciprocity in Autism." medRxiv (2025): 2025-07.
   
 Using our SCORE algorithm, I detected subtle but consistent oxytocin effects on social-emotional reciprocity---an area where conventional total scores and subscores have repeatedly produced null or inconsistent findings.
