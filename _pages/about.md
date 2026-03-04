@@ -13,7 +13,7 @@ My work currently falls into three primary themes, alongside occasional projects
 
 Outcome Learning
 ======
-I develop data-adaptive methods for constructing composite outcomes that are explicitly aligned with the scientific or clinical task. Rather than treating outcomes as fixed, these approaches learn clinically interpretable outcome measures optimized for prediction, treatment differentiation, or causal analysis, with applications across psychiatry.
+_I develop data-adaptive methods for constructing composite outcomes that are explicitly aligned with the scientific or clinical task. Rather than treating outcomes as fixed, these approaches learn clinically interpretable outcome measures optimized for prediction, treatment differentiation, or causal analysis, with applications across psychiatry._
 
 - Strobl, Eric V. ["Task-Aligned Outcome Learning in Psychiatry: Reducing Endpoint Dilution."](https://github.com/ericstrobl/ericstrobl.github.io/blob/master/files/Outcome_Learning_Perspective.pdf) Eric V. Strobl's Personal Webpage (2026): ericstrobl.github.io Accessed March 4 2026.
 
@@ -42,7 +42,7 @@ We introduced Supervised Varimax to learn outcome measures that amplify clinical
 
 Root Causal Analysis
 ======
-I formalize ``root causes'' in biomedical systems and develop methods to detect them directly from data. Conceptually, these methods aim to identify the initiating drivers of disease processes across genetic, transcriptomic, and neuroimaging modalities.
+_I formalize ``root causes'' in biomedical systems and develop methods to detect them directly from data. Conceptually, these methods aim to identify the initiating drivers of disease processes across genetic, transcriptomic, and neuroimaging modalities._
 
 - Strobl, Eric V. "Extracting Root-Causal Brain Activity Driving Psychopathology from Resting State fMRI." arXiv preprint arXiv:2602.07233 (2026).
 
@@ -71,7 +71,7 @@ We generalized the above LiNGAM-based approach to accommodate latent variables, 
 
 Causal Discovery
 ======
-I develop causal discovery methods for learning causal graphs from observational data under progressively weaker and more realistic assumptions, including missingness, selection effects, latent variables, cycles, and distributional heterogeneity.
+_I develop causal discovery methods for learning causal graphs from observational data under progressively weaker and more realistic assumptions, including missingness, selection effects, latent variables, cycles, and distributional heterogeneity._
 
 - Strobl, Eric V., Kun Zhang, and Shyam Visweswaran. "Approximate kernel-based conditional independence tests for fast non-parametric causal discovery." Journal of Causal Inference 7.1 (2019): 20180017.
 
