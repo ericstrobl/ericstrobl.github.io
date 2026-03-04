@@ -19,8 +19,10 @@ I develop data-adaptive methods for constructing composite outcomes that are exp
   
 Using our SCORE algorithm, I detected subtle but consistent oxytocin effects on social-emotional reciprocity---an area where conventional total scores and subscores have repeatedly produced null or inconsistent findings.
 - Strobl, Eric V. "Mendelianization: Concentrating Polygenic Signal into a Single Causal Locus." medRxiv (2025): 2025-10.
+  
 I used outcome learning to construct outcomes that concentrate polygenic association signal onto a single locus, improving interpretability and downstream causal localization.
 - Strobl, Eric V. "Learning Causally Predictable Outcomes from Psychiatric Longitudinal Data." Biocomputing 2026: Proceedings of the Pacific Symposium. 2025.
+  
 I showed that the transient nature of certain treatments can enable robust causal inference from longitudinal psychiatric data, even when latent confounding is present.
 - Strobl, Eric. "Predicting the Predictable in the Psychiatric High Risk." Machine Learning for Healthcare Conference. PMLR, 2025.
 Instead of prespecifying outcomes, I developed SCORE to learn outcomes that are both clinically interpretable and genuinely predictable over time, revealing actionable structure in high-risk cohorts that standard outcome definitions often obscure.
