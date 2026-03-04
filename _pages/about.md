@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome! I am an Assistant Professor of Biomedical Informatics at the University of Pittsburgh and a practicing child and adolescent psychiatrist in the Center for Autism and Developmental Disorders. My research develops computational methods for treatment discovery, with a natural emphasis on causal discovery and inference. We have created approaches that pinpoint root causes of disease, detect subtle treatment effects in randomized trials, and overcome latent confounding in observational studies. I gravitate toward problems that appear simple but reward deep thought, often yielding solutions that seem obvious only in hindsight. Ultimately, my goal is to produce foundational insights that translate into better patient outcomes.
 
-My work currently falls into three primary themes listed below, alongside occasional projects that do not fit into the categories. For manuscripts under review, I typically provide a corresponding preprint. I only update this website periodically, so please check my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=aimJiz4AAAAJ&view_op=list_works&sortby=pubdate) for recent updates.
+My work currently falls into three primary themes listed below, alongside occasional projects that do not fit into the categories. For manuscripts under review, I typically provide a corresponding preprint. Finally, I only update this website periodically, so please check my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=aimJiz4AAAAJ&view_op=list_works&sortby=pubdate) for recent updates.
 
 Outcome Learning
 ======
