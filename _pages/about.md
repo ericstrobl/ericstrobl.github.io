@@ -20,7 +20,7 @@ _I develop data-adaptive methods for constructing composite outcomes that are ex
 This Perspective articulates why outcome learning matters and provides practical guidance for using it responsibly, without sliding into endpoint shopping. I host it here because many preprint servers do not accept Perspective articles.
 - Strobl, Eric V. "Oxytocin Enhances Social-Emotional Reciprocity in Autism." medRxiv (2025): 2025-07.
   
-Using our SCORE algorithm, I detected subtle but consistent oxytocin effects on social-emotional reciprocity---an area where conventional total scores and subscores have repeatedly produced null or inconsistent findings.
+Using the SCORE algorithm, I detected subtle but consistent oxytocin effects on social-emotional reciprocity---an area where conventional total scores and subscores have repeatedly produced null or inconsistent findings.
 - Strobl, Eric V. "Mendelianization: Concentrating Polygenic Signal into a Single Causal Locus." medRxiv (2025): 2025-10.
   
 I used outcome learning to construct outcomes that concentrate polygenic association signal onto a single locus, improving interpretability and downstream causal localization.
