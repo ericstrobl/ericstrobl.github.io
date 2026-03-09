@@ -40,7 +40,7 @@ I linked caregiver-observed behavior patterns to specific forms of mental distre
 
 We introduced Supervised Varimax to learn outcome measures that amplify clinically meaningful treatment differences, supporting precision psychiatry in settings where standard endpoints show minimal or no differential effects.
 
-Root Causal Analysis
+Root Cause Analysis
 ======
 _I formalize ``root causes'' in biomedical systems and develop methods to detect them directly from data. Conceptually, these methods aim to identify the initiating drivers of disease processes across genetic, transcriptomic, and neuroimaging modalities._
 
