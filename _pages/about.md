@@ -36,7 +36,7 @@ Using our Supervised Varimax algorithm, I identified consistent and clinically m
 - Strobl, Eric V. "Unique Behavior Profiles that Specify Mental Distress in Autism." medRxiv (2025): 2025-02.
 
 I linked caregiver-observed behavior patterns to specific forms of mental distress, enabling more precise clinical interpretation for patients who cannot reliably communicate internal states and revealing autism-specific internalizing and externalizing profiles. I further organized these interpretations into clinician-familiar diagnostic categories to facilitate translation to routine practice.
-- Strobl, Eric V., and Semmie Kim. "Learning outcomes that maximally differentiate psychiatric treatments." medRxiv (2024): 2024-12. 
+- Strobl, Eric V., and Semmie Kim. 2026. “Learning Outcomes That Maximally Differentiate Psychiatric Treatments,” International Journal of Methods in Psychiatric Research: e70074.
 
 We introduced Supervised Varimax to learn outcome measures that amplify clinically meaningful treatment differences, supporting precision psychiatry in settings where standard endpoints show minimal or no differential effects.
 
