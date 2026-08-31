@@ -72,7 +72,7 @@ We generalized the above LiNGAM-based approach to accommodate latent variables, 
 
 Causal Discovery and Inference
 ======
-_I develop causal discovery methods for learning causal graphs from observational data under progressively weaker and more realistic assumptions, including missingness, selection effects, latent variables, cycles, and distributional heterogeneity._
+_I develop methods for causal discovery and causal inference from observational data, particularly focusing on real complications such as missingness, selection effects, latent variables, cycles, measurement error, and distributional heterogeneity._
 
 - Strobl, Eric V. "COMPACT: Spectral Adjustment Scores from a Complete and Irreducible Causal Criterion." arXiv:2608.10305 (2026).
   
