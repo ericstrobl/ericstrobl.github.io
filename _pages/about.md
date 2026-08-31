@@ -22,9 +22,9 @@ This Perspective articulates why outcome learning matters and provides practical
 - Strobl, Eric V. "Oxytocin Enhances Social-Emotional Reciprocity in Autism." medRxiv (2025): 2025-07.
   
 Using the SCORE algorithm, I detected subtle but consistent oxytocin effects on social-emotional reciprocity---an area where conventional total scores and subscores have repeatedly produced null or inconsistent findings.
-- Strobl, Eric V. "Mendelianization: Concentrating Polygenic Signal into a Single Causal Locus." medRxiv (2025): 2025-10.
+- Strobl, Eric V. "Mendelianization: Concentrating polygenic signal into a single causal locus." Genetic Epidemiology 50.6 (2026): e70053.
   
-I used outcome learning to construct outcomes that concentrate polygenic association signal onto a single locus, improving interpretability and downstream causal localization.
+I used outcome learning to construct phenotypes that concentrate polygenic association signal onto individual genetic loci, improving interpretability and causal localization. This work grew out of both my outcome-learning research and my interest in identifying genetic root causes of disease. A central goal was to base causal localization on assumptions stated directly in terms of genetic architecture, while avoiding generic causal-model assumptions such as consistency, exclusion restrictions, or an underlying DAG whenever possible.
 - Strobl, Eric V. "Learning Causally Predictable Outcomes from Psychiatric Longitudinal Data." Biocomputing 2026: Proceedings of the Pacific Symposium. 2025.
   
 I showed that the transient nature of certain treatments can enable robust causal inference from longitudinal psychiatric data, even when latent confounding is present.
@@ -34,7 +34,7 @@ Instead of prespecifying outcomes, I developed SCORE to learn outcomes that are 
 - Strobl, Eric V. "Consistent differential effects of bupropion and mirtazapine in major depression." Journal of Affective Disorders 388 (2025): 119551.
 
 Using our Supervised Varimax algorithm, I identified consistent and clinically meaningful differential effects between bupropion and mirtazapine---addressing a long-standing gap where randomized trials have struggled to separate these medications despite clear differences in clinical practice.
-- Strobl, Eric V. "Unique Behavior Profiles that Specify Mental Distress in Autism." medRxiv (2025): 2025-02.
+- Strobl, Eric V. "Unique Behavior Profiles that Specify Mental Distress in Autism." Journal of Autism and Developmental Disorders (in press)
 
 I linked caregiver-observed behavior patterns to specific forms of mental distress, enabling more precise clinical interpretation for patients who cannot reliably communicate internal states and revealing autism-specific internalizing and externalizing profiles. I further organized these interpretations into clinician-familiar diagnostic categories to facilitate translation to routine practice.
 - Strobl, Eric V., and Semmie Kim. 2026. “Learning Outcomes That Maximally Differentiate Psychiatric Treatments,” International Journal of Methods in Psychiatric Research: e70074.
@@ -74,6 +74,14 @@ Causal Discovery
 ======
 _I develop causal discovery methods for learning causal graphs from observational data under progressively weaker and more realistic assumptions, including missingness, selection effects, latent variables, cycles, and distributional heterogeneity._
 
+- Strobl, Eric V. "COMPACT: Spectral Adjustment Scores from a Complete and Irreducible Causal Criterion." arXiv:2608.10305 (2026).
+  
+The propensity score had bothered me for some time because I kept reading that it was justified as the “coarsest” balancing score, which seemed like an unusual endpoint when the real goal is causal inference. I wondered whether adjustment could instead be derived from the causal problem itself. That led to COMPACT, where a minimal set of conditional and unconditional independence relations is used to maximally constrain the causal graph structure relevant to adjustment. What I found especially beautiful was that this structural criterion ultimately collapsed to a generalized eigenvalue decomposition, turning an abstract causal argument into a simple spectral algorithm.
+
+- Strobl, Eric V. "Fast Nonparametric Conditional Independence Testing via Two-Stage Regression." arXiv:2606.18011 (2026).
+
+I developed BLITZ, a sub-second nonparametric conditional independence test that maintains strong Type I error control under complex nonlinear structure. It was one of the hardest methodological problems I have worked on because increasing model flexibility seemed to create an unavoidable computational cost. The eventual solution was to exploit the product structure of the test statistic to reduce the complexity of the problem at two different levels.
+
 - Strobl, Eric V., Kun Zhang, and Shyam Visweswaran. "Approximate kernel-based conditional independence tests for fast non-parametric causal discovery." Journal of Causal Inference 7.1 (2019): 20180017.
 
 We designed computationally efficient kernel-based conditional independence tests that make nonparametric causal discovery feasible at larger scales.
@@ -93,3 +101,9 @@ I proposed a stability-based modification to PC that selects the significance th
 
 We derived edge-specific p-value bounds for PC and use them to control false discoveries, enabling more principled uncertainty quantification in learned causal graphs.
 
+
+Others
+======
+- Strobl, Eric V. "Global Interpretability via Automated Preprocessing: A Framework Inspired by Psychiatric Questionnaires." arXiv:2602.23459 (2026).
+
+I took a stab at a problem outside my usual comfort zone: model interpretability. Instance-specific explanations such as SHAP values felt too unstable for clinical use because they can change across patients and outcomes, so I wanted a single interpretable model that still retained nonlinear predictive accuracy. The key realization was that a nonlinear prediction problem could be decomposed into an interpretable preprocessing step followed by a simple linear model. What made this work was that the nonlinearity was not arbitrary; it had to behave like genuine preprocessing, preserving the meaning of the original variables while extracting the structure needed for prediction.
