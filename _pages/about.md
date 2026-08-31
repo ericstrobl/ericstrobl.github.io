@@ -77,7 +77,7 @@ _I develop methods for causal discovery and causal inference from observational 
 
 - Strobl, Eric V. "COMPACT: Spectral Adjustment Scores from a Complete and Irreducible Causal Criterion." arXiv:2608.10305 (2026).
   
-I had long been curious about the usual justification for the propensity score as the “coarsest” balancing score. Since the ultimate goal is causal inference, I wondered whether adjustment could instead be derived more directly from the causal problem itself. That led to COMPACT, where a minimal set of conditional and unconditional independence relations is used to maximally constrain the causal graph structure relevant to adjustment. I especially liked that this structural criterion ultimately collapsed to a generalized eigenvalue decomposition, turning an abstract causal argument into a simple spectral algorithm.
+I had long been curious about the usual justification for the propensity score as the coarsest balancing score. Since the ultimate goal is causal inference, I wondered whether adjustment could instead be derived more directly from the causal problem itself. That led to COMPACT, where a minimal set of conditional and unconditional independence relations is used to maximally constrain the causal graph structure relevant to adjustment. I especially liked that this structural criterion ultimately collapsed to a generalized eigenvalue decomposition, turning an abstract causal argument into a simple spectral algorithm.
 
 - Strobl, Eric V. "Fast Nonparametric Conditional Independence Testing via Two-Stage Regression." arXiv:2606.18011 (2026).
 
