@@ -14,14 +14,10 @@ My work currently falls into three primary themes, along with occasional project
 For manuscripts under review, I typically provide a corresponding preprint. Finally, I only update this website periodically, so please check my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=aimJiz4AAAAJ&view_op=list_works&sortby=pubdate) for recent updates.
 
 
-### Research
-
 [Outcome Learning](#outcome-learning) ·
 [Root Cause Analysis](#root-cause-analysis) ·
 [Causal Discovery & Inference](#causal-discovery-and-inference) ·
 [Other Work](#others)
-
-
 
 Outcome Learning
 ======
