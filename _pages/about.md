@@ -17,7 +17,7 @@ For manuscripts under review, I typically provide a corresponding preprint. Fina
 [Outcome Learning](#outcome-learning) ·
 [Root Cause Analysis](#root-cause-analysis) ·
 [Causal Discovery & Inference](#causal-discovery-and-inference) ·
-[Other Work](#others)
+[Other Work](#other-works)
 
 ## Outcome Learning
 
@@ -127,9 +127,9 @@ The paper develops AutoPC to remove the need to specify a single Type I error th
 
 The paper develops PC-p to provide statistical error control for individual edges learned by the PC algorithm when exact edge-specific p-values are not directly available. It derives upper bounds on edge-specific p-values by combining the p-values from the conditional independence tests performed during causal discovery. PC-p deliberately uses a relatively liberal initial Type I error threshold to reduce Type II errors, allowing the algorithm to perform more of the tests needed to obtain valid p-value bounds; additional modifications prevent Type II errors from propagating through graph orientation. The resulting bounded edge-specific p-values can then be used with standard multiple-testing procedures, such as Benjamini-Yekutieli, to estimate and control the false discovery rate of the learned causal graph.
 
-## Others
+## Other Works
 
 - Strobl, Eric V. "Global Interpretability via Automated Preprocessing: A Framework Inspired by Psychiatric Questionnaires." arXiv:2602.23459 (2026).
 
-This work considers global model interpretability in settings with general nonlinear predictive relationships. Instance-specific explanations such as SHAP values vary across patients and outcomes, whereas some clinical applications benefit from a single interpretable model. The paper shows how a general nonlinear prediction problem can be decomposed into an interpretable nonlinear preprocessing step followed by a simple linear predictive model, while retaining nonlinear predictive performance. The preprocessing is constrained to preserve the meaning of the original variables while extracting the nonlinear structure needed for prediction.
+This work considers global model interpretability in settings with nonlinear predictive relationships. Instance-specific explanations such as SHAP values vary across patients and outcomes, whereas some clinical applications benefit from a single interpretable model. The paper shows how nonlinear longitudinal prediction can be decomposed into an interpretable nonlinear preprocessing step followed by a simple linear predictive model, while retaining Bayes-optimal predictive flexibility in the population. The preprocessing maintains alignment with the original variables while extracting the nonlinear structure needed for prediction.
 
