@@ -119,3 +119,6 @@ Others
 
 I took a stab at a problem outside my usual comfort zone: model interpretability. Instance-specific explanations such as SHAP values felt too unstable for clinical use because they can change across patients and outcomes, so I wanted a single interpretable model that still retained nonlinear predictive accuracy. The key realization was that a nonlinear prediction problem could be decomposed into an interpretable nonlinear preprocessing step followed by a simple linear model. What made this work was that the nonlinearity was not arbitrary; it had to behave like genuine preprocessing, preserving the meaning of the original variables while extracting the structure needed for prediction.
 
+
+
+<script src="https://statable.com/js/K6S5E1AfF8/t/gw.js" data-id="3287194" data-display-mode="cities" data-tilt-preset="realistic" data-period="90d"></script>
