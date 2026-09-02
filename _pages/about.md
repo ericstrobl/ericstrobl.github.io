@@ -50,7 +50,7 @@ I used outcome learning to construct phenotypes that concentrate polygenic assoc
 
 Root Cause Analysis
 ======
-_This line of work grew out of a simple question: if we care about the causes of disease, why not try to directly identify the root causes in an individual patient? I knew that even framing the problem this way would draw substantial skepticism and resistance. Still, I could not dismiss the question simply because it fell outside the usual way of thinking. From a treatment perspective, identifying what actually initiates disease in a particular patient seemed too important to ignore. I therefore pursued a framework for patient-specific root causes despite the pushback, because I believed the question could ultimately help move medicine toward more causally targeted treatments._
+_This line of work grew out of a simple question: if we care about the causes of disease, can we identify the root causes in an individual patient? From a treatment perspective, understanding what initiates disease in a particular patient could help move medicine toward more causally targeted interventions. I therefore developed a framework for defining and identifying patient-specific root causes._
 
 - Strobl, Eric V. "Extracting Root-Causal Brain Activity Driving Psychopathology from Resting State fMRI." arXiv preprint arXiv:2602.07233 (2026).
 
