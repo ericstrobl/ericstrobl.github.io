@@ -13,6 +13,16 @@ My work currently falls into three primary themes, along with occasional project
 
 For manuscripts under review, I typically provide a corresponding preprint. Finally, I only update this website periodically, so please check my [Google Scholar profile](https://scholar.google.com/citations?hl=en&user=aimJiz4AAAAJ&view_op=list_works&sortby=pubdate) for recent updates.
 
+
+### Research
+
+[Outcome Learning](#outcome-learning) ·
+[Root Cause Analysis](#root-cause-analysis) ·
+[Causal Discovery & Inference](#causal-discovery-and-inference) ·
+[Other Work](#others)
+
+
+
 Outcome Learning
 ======
 _I develop data-adaptive methods for constructing composite outcomes that are explicitly aligned with the scientific or clinical task. Rather than treating outcomes as fixed, these approaches learn clinically interpretable outcome measures optimized for prediction, treatment differentiation, or causal analysis, with applications across psychiatry._
@@ -109,13 +119,3 @@ Others
 
 I took a stab at a problem outside my usual comfort zone: model interpretability. Instance-specific explanations such as SHAP values felt too unstable for clinical use because they can change across patients and outcomes, so I wanted a single interpretable model that still retained nonlinear predictive accuracy. The key realization was that a nonlinear prediction problem could be decomposed into an interpretable nonlinear preprocessing step followed by a simple linear model. What made this work was that the nonlinearity was not arbitrary; it had to behave like genuine preprocessing, preserving the meaning of the original variables while extracting the structure needed for prediction.
 
-
-
-<br>
-
-## Visitors
-
-<div style="text-align:center;">
-<script src="https://statable.com/js/K6S5E1AfF8/t/mw.js" data-id="3287194" data-period="90d" data-display-mode="cities"></script>
-
-</div>
