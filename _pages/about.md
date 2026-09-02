@@ -105,7 +105,7 @@ This work develops BLITZ, a sub-second nonparametric conditional independence te
 
 - Strobl, Eric V., Kun Zhang, and Shyam Visweswaran. "Approximate kernel-based conditional independence tests for fast non-parametric causal discovery." Journal of Causal Inference 7.1 (2019): 20180017.
 
-The paper introduces computationally efficient kernel-based conditional independence tests using approximations that make nonparametric causal discovery feasible at larger scales.
+The paper introduces RCIT and RCoT as scalable nonparametric conditional independence tests for causal discovery. Both methods replace expensive kernel computations with random Fourier features and use relatively small feature representations for the non-conditioning variables. Conditional expectations are estimated with nearly unregularized regression so that limited Fourier-feature representations tend toward overfitting rather than underfitting; for the residual-product criterion, residual dependence caused by underfitting is more problematic. This allows accurate conditional independence testing with substantially fewer Fourier features. RCoT further simplifies RCIT by testing residual dependence directly through cross-covariances of the transformed non-conditioning variables after conditioning on Z. In practice, these approximations retain much of the accuracy of kernel-based conditional independence testing while reducing computational complexity to approximately linear scaling with sample size.
 
 - Strobl, Eric V., Shyam Visweswaran, and Peter L. Spirtes. "Fast causal inference with non-random missingness by test-wise deletion." International Journal of Data Science and Analytics 6.1 (2018): 47-62.
 
@@ -113,7 +113,7 @@ This project addresses causal discovery in datasets with substantial non-random 
 
 - Strobl, Eric V. "A constraint-based algorithm for causal discovery with cycles, latent variables and selection bias." International Journal of Data Science and Analytics 8.1 (2019): 33-56.
 
-This work addresses causal discovery in the simultaneous presence of cycles, latent variables, and selection bias. The paper develops a constraint-based method that incorporates orientation rules for reasoning about all three complications within a common causal discovery framework.
+This paper develops Cyclic Causal Inference (CCI) for constraint-based causal discovery in the simultaneous presence of cycles, latent variables, and selection bias. The approach extends FCI-style reasoning to cyclic systems by weakening orientation conditions to those that remain sufficient when acyclicity can no longer be assumed and by incorporating long-range conditional-independence relations that can distinguish cyclic structures with identical local patterns. The paper also establishes that inducing paths, D-SEP sets, and computable Possible-D-SEP sets remain sufficient for skeleton discovery in the cyclic setting. CCI therefore preserves much of the latent-variable and selection-bias machinery of FCI while generalizing the graphical and orientation theory needed to accommodate feedback cycles.
 
 - Strobl, Eric V. "Causal discovery with a mixture of DAGs." Machine Learning 112.11 (2023): 4201-4225.
 
@@ -121,11 +121,11 @@ This project studies a representation in which an apparently cyclic causal syste
 
 - Strobl, Eric V. "Automated hyperparameter selection for the PC algorithm." Pattern Recognition Letters 151 (2021): 288-293.
 
-The paper proposes a stability-based modification to the PC algorithm that selects the significance threshold automatically, reducing sensitivity to arbitrary hyperparameter choices and improving robustness in causal discovery.
+The paper develops AutoPC to remove the need to specify a single Type I error threshold $\alpha$ for the PC algorithm. Instead, the user supplies a set of plausible alpha values, and AutoPC selects among them using an internal stability criterion. For each candidate alpha, PC first estimates a causal equivalence class and is then rerun with conditional independence tests restricted to the possible-parent sets implied by that estimate. The theoretical basis is that, when the estimated equivalence class is correct, these restricted conditioning sets remain sufficient to recover the same graph. AutoPC therefore selects the alpha value for which the unrestricted and theoretically restricted PC runs are most consistent, providing an unsupervised approach to hyperparameter selection for causal discovery.
 
 - Strobl, Eric V., Peter L. Spirtes, and Shyam Visweswaran. "Estimating and controlling the false discovery rate of the PC algorithm using edge-specific p-values." ACM Transactions on Intelligent Systems and Technology (TIST) 10.5 (2019): 1-37.
 
-The paper derives edge-specific p-value bounds for the PC algorithm and uses them to control the false discovery rate, providing uncertainty quantification for individual edges in learned causal graphs.
+The paper develops PC-p to provide statistical error control for individual edges learned by the PC algorithm when exact edge-specific p-values are not directly available. It derives upper bounds on edge-specific p-values by combining the p-values from the conditional independence tests performed during causal discovery. PC-p deliberately uses a relatively liberal initial Type I error threshold to reduce Type II errors, allowing the algorithm to perform more of the tests needed to obtain valid p-value bounds; additional modifications prevent Type II errors from propagating through graph orientation. The resulting bounded edge-specific p-values can then be used with standard multiple-testing procedures, such as Benjamini-Yekutieli, to estimate and control the false discovery rate of the learned causal graph.
 
 ## Others
 
