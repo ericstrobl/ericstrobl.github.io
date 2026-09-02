@@ -59,37 +59,37 @@ This work used outcome learning to construct phenotypes that concentrate polygen
 
 _This line of work addresses whether the causes that initiate disease can be defined and identified at the level of an individual patient. From a treatment perspective, identifying patient-specific initiating causes could support more causally targeted interventions. The resulting framework defines and estimates patient-specific root causes rather than only population-level causal effects._
 
-- Strobl, Eric V. "Extracting Root-Causal Brain Activity Driving Psychopathology from Resting State fMRI." arXiv preprint arXiv:2602.07233 (2026).
-
-This study extends root causal analysis to resting-state fMRI. The framework aims to identify brain activity patterns that initiate psychopathology-related processes rather than activity that primarily reflects downstream consequences.
-
-- Strobl, Eric V., and Eric Gamazon. "Discovering root causal genes with high-throughput perturbations." Elife 13 (2025): RP100949.
-
-The study introduces a method for identifying root causal genes, defined as the initial expression changes that drive downstream disease-related molecular processes. Causal gene order is learned from Perturb-seq data and transferred to bulk RNA-seq for patient-specific root-cause analysis.
-
-- Strobl, Eric V., and Eric R. Gamazon. "Transcriptome-wide root causal inference." PLOS Computational Biology 21.9 (2025): e1013461.
-
-The paper develops a transcriptome-wide approach for inferring root causal genes using genetic variation as instrumental variables. This formulation permits root-causal analysis without requiring Perturb-seq data.
-
-- Strobl, Eric V., and Thomas A. Lasko. "Identifying patient-specific root causes with the heteroscedastic noise model." Journal of Computational Science 72 (2023): 102099.
-
-The paper develops GRCI for identifying patient-specific root causes under heteroscedastic noise and derives identifiability conditions establishing when the corresponding causal model is uniquely recoverable.
-
-- Strobl, Eric V., Thomas A. Lasko, and Eric R. Gamazon. "Mitigating pathogenesis for target discovery and disease subtyping." Computers in Biology and Medicine 171 (2024): 108122.
-
-This study connects root causal analysis to pathogenesis and introduces an estimator for how root causal effects change under intervention versus no intervention. The framework supports both intervention-target discovery and disease subtyping based on causal pathogenesis.
-
-- Strobl, Eric V. "Counterfactual formulation of patient-specific root causes of disease." Journal of Biomedical Informatics 150 (2024): 104585.
-
-The paper formalizes patient-specific root causes at the counterfactual level. The framework relates the clinical concept of a root cause to a precise patient-specific causal definition at the counterfactual level of Pearl's causal hierarchy.
-
 - Strobl, Eric V., and Thomas A. Lasko. "Identifying patient-specific root causes of disease." Proceedings of the 13th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics. 2022.
 
-This work defines patient-specific root causes and presents an efficient discovery method based on LiNGAM.
+This paper provides the initial formulation of patient-specific root causal inference using a linear non-Gaussian acyclic model (LiNGAM), chosen as a simple identifiable structural equation model. Root causes are represented by exogenous error terms, or patient-specific shocks to variables, whose downstream effects contribute to the diagnostic outcome; the formulation is interventional rather than counterfactual and quantifies each error term's patient-specific contribution using Shapley values. The main methodological contribution is Root Causal Inference (RCI), which efficiently identifies the relevant exogenous errors and estimates their effects on diagnosis rather than relying on generic ICA or LiNGAM causal-discovery procedures. The algorithm also modifies DirectLiNGAM to recover only the error terms relevant to the diagnostic outcome and to reduce the computational cost of their extraction.
 
 - Strobl, Eric, and Thomas A. Lasko. "Sample-specific root causal inference with latent variables." Conference on Causal Learning and Reasoning. PMLR, 2023.
 
-The study generalizes the LiNGAM-based approach to accommodate latent variables, extending patient-specific root causal inference to settings with unmeasured factors.
+The study generalizes the original LiNGAM-based root causal inference framework to settings with latent confounding. It introduces Extract Errors with Latents (EEL), which recovers individual exogenous error terms when the model permits and otherwise recovers them up to contamination by other error terms lying on specific causal paths. EEL also constructs a dependency graph over the recovered errors, identifying the smallest dependent sets needed for efficient computation of patient-specific Shapley contributions. This extends root causal inference beyond the fully observed setting without requiring recovery of the complete underlying causal graph.
+
+- Strobl, Eric V., and Thomas A. Lasko. "Identifying patient-specific root causes with the heteroscedastic noise model." Journal of Computational Science 72 (2023): 102099.
+
+This paper extends the original LiNGAM-based root causal inference framework to the heteroscedastic noise model, allowing nonlinear causal relationships and covariate-dependent noise. It proves identifiability of the full causal DAG under this model, substantially generalizing simpler additive-noise formulations. The paper also introduces Generalized Root Causal Inference (GRCI), which estimates the causal structure, extracts the exogenous error terms needed for patient-specific root-cause analysis, and computes their sample-specific contributions. The algorithm uses a two-stage procedure based on the conditional mean and mean absolute deviation, making minimal assumptions beyond the heteroscedastic noise model while providing accurate and robust root-cause recovery.
+
+- Strobl, Eric V. "Counterfactual formulation of patient-specific root causes of disease." Journal of Biomedical Informatics 150 (2024): 104585.
+
+This paper reformulates patient-specific root causes at the counterfactual level. Earlier work used an interventional formulation in which root causal effects were defined by intervening on exogenous error terms. Building on the recently developed framework of backtracking counterfactuals, this paper instead formalizes the clinical process of reasoning backward from a patient's observed disease state toward its upstream causes while preserving the factual patient data and causal mechanisms. The resulting definition places patient-specific root causes on the counterfactual level of Pearl's causal hierarchy and provides a more rigorous causal formulation of the clinical concept of a root cause.
+
+- Strobl, Eric V., Thomas A. Lasko, and Eric R. Gamazon. "Mitigating pathogenesis for target discovery and disease subtyping." Computers in Biology and Medicine 171 (2024): 108122.
+
+This study connects patient-specific root causal analysis to the clinical concept of disease pathogenesis by representing pathogenesis through the effects of root causes on downstream disease processes. It introduces Treated Root causal Effects (TREs) to quantify how interventions modify those pathogenic effects. The framework uses TREs to identify intervention targets that mitigate pathogenesis and to subtype patients according to similarities in how their pathogenic mechanisms respond to treatment. This provides a direct connection between causal modeling, treatment-target discovery, and clinically interpretable concepts of pathogenesis and disease heterogeneity.
+
+- Strobl, Eric V., and Eric Gamazon. "Discovering root causal genes with high-throughput perturbations." Elife 13 (2025): RP100949.
+
+This study uses Perturb-seq data to recover causal ordering among genes in order to identify root causal genes, defined as the first gene-expression changes induced by the underlying genetic or non-genetic root causes of disease. A central contribution is the Root Causal Strength (RCS), a model-free measure of the magnitude of a patient-specific root-causal effect that can be computed from observed gene expression without recovering the underlying exogenous error terms or specifying their functional form or distribution. Perturb-seq is used to identify the causal structure needed to estimate RCS, while bulk RNA-seq provides patient-level expression and disease information. The resulting RCSP algorithm therefore combines high-throughput perturbation data for causal ordering with bulk transcriptomic data for patient-specific identification of the genes at which upstream root causes first enter the gene-expression system.
+
+- Strobl, Eric V., and Eric R. Gamazon. "Transcriptome-wide root causal inference." PLOS Computational Biology 21.9 (2025): e1013461.
+
+This study follows the Perturb-seq approach by replacing experimental perturbations with genetic variants as instrumental variables for transcriptome-wide root causal inference. It introduces the conditional root causal effect (CRCE), a functionally model-free measure of the patient-specific causal effect of the genetic and non-genetic factors that first perturb a gene expression level. The TWRCI algorithm introduces Competitive Regression, which uses the relative predictive relationships between genetic variants, gene expression levels, and the phenotype to determine which variable a variant most directly perturbs and thereby infer causal ordering among gene expression levels. This ordering is used to reconstruct the gene-expression DAG and identify root causal genes from observational genotype and bulk RNA-seq data. The resulting CRCEs can also be decomposed into genetic and non-genetic components of the root causal effect.
+
+- Strobl, Eric V. "Extracting Root-Causal Brain Activity Driving Psychopathology from Resting State fMRI." arXiv preprint arXiv:2602.07233 (2026).
+
+This study extends root causal analysis to resting-state fMRI using a LiNGAM-inspired bilevel structural causal model. The model represents brain activity as arising from a low-dimensional set of independent latent sources with localized direct effects that subsequently propagate through voxel-to-voxel interactions. A shared mixing structure across subjects permits standardized fMRI time points to be concatenated for ICA-based recovery of the latent sources. The SOURCE algorithm then learns clinically interpretable symptom outcomes that are selectively associated with a small subset of these sources and identifies the corresponding root-proximal brain regions. The resulting framework therefore combines causal source separation, cross-subject temporal pooling, spatial localization, and outcome learning to isolate brain activity patterns that may initiate psychopathology-related processes.
 
 ## Causal Discovery and Inference
 
