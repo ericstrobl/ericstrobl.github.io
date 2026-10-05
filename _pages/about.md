@@ -51,10 +51,6 @@ This work considers whether longitudinal medical data contain structure that can
 
 This study applied outcome learning to the SOARS-B randomized trial to examine whether oxytocin effects might be detectable beyond the prespecified primary outcomes. SCORE was used to learn a treatment-sensitive outcome from the randomized data, with bootstrap and permutation procedures for Type I error control. The analysis identified an effect that was not apparent using the original endpoints. More generally, subtle treatment effects may be difficult to capture with prespecified summary measures, particularly when they do not follow conventional factor structure. Outcome learning provides a data-adaptive approach for identifying such treatment-responsive dimensions while retaining formal inferential safeguards.
 
-- Strobl, Eric V. "Mendelianization: Concentrating polygenic signal into a single causal locus." Genetic Epidemiology 50.6 (2026): e70053.
-
-This work used outcome learning to construct phenotypes that concentrate polygenic association signal onto individual genetic loci, improving interpretability and causal localization. Mendelianization grew in part out of earlier work on patient-specific root causes, but replaces the previous DAG-based formulation with assumptions stated directly in terms of genetic architecture and avoids reliance on functional genomic data. The resulting framework makes the phenotype itself learnable and bases causal localization on assumptions more directly connected to observed genetic association structure.
-
 ## Root Cause Analysis
 
 _This line of work addresses whether the causes that initiate disease can be defined and identified at the level of an individual patient. From a treatment perspective, identifying patient-specific initiating causes could support more causally targeted interventions. The resulting framework defines and estimates patient-specific root causes rather than only population-level causal effects._
@@ -86,6 +82,10 @@ This study uses Perturb-seq data to recover causal ordering among genes in order
 - Strobl, Eric V., and Eric R. Gamazon. "Transcriptome-wide root causal inference." PLOS Computational Biology 21.9 (2025): e1013461.
 
 This study follows the Perturb-seq approach by replacing experimental perturbations with genetic variants as instrumental variables for transcriptome-wide root causal inference. It introduces the conditional root causal effect (CRCE), a functionally model-free measure of the patient-specific causal effect of the genetic and non-genetic factors that first perturb a gene expression level. The TWRCI algorithm introduces Competitive Regression, which uses the relative predictive relationships between genetic variants, gene expression levels, and the phenotype to determine which variable a variant most directly perturbs and thereby infer causal ordering among gene expression levels. This ordering is used to reconstruct the gene-expression DAG and identify root causal genes from observational genotype and bulk RNA-seq data. The resulting CRCEs can also be decomposed into genetic and non-genetic components of the root causal effect.
+
+- Strobl, Eric V. "Mendelianization: Concentrating polygenic signal into a single causal locus." Genetic Epidemiology 50.6 (2026): e70053.
+
+This work develops Mendelianization, a root causal inference method that uses outcome learning to localize phenotypic variation to individual genetic loci. Rather than treating the phenotype as fixed, Mendelianization learns combinations of phenotype components whose genetic association patterns concentrate onto a single locus under assumptions stated directly in terms of genetic architecture. The method extends earlier work on root causal inference without requiring reconstruction of a causal DAG or functional genomic data such as gene expression or perturbation measurements.
 
 - Strobl, Eric V. "Extracting Root-Causal Brain Activity Driving Psychopathology from Resting State fMRI." arXiv preprint arXiv:2602.07233 (2026).
 
