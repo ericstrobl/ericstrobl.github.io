@@ -44,7 +44,7 @@ I do not expect incoming students to have already developed all the skills descr
 
 The following areas are generally not the primary focus of my research group:
 
-- Primarily descriptive studies of disease, such as characterizing molecular profiles, identifying imaging patterns, or documenting associations, without a clear connection to potential improvements in treatment or clinical care.
+- Primarily descriptive studies of disease, such as characterizing molecular profiles, identifying imaging patterns, or documenting associations.
 
 - Development of algorithms or theoretical frameworks without a clear connection to potential clinical applications.
 
@@ -52,9 +52,9 @@ The following areas are generally not the primary focus of my research group:
 
 - Large-scale software engineering, infrastructure development, or computational platform development as the main research objective.
 
-- Research focused primarily on improving predictive performance or achieving benchmark results, rather than addressing a substantive scientific or clinical question.
+- Research focused primarily on improving predictive performance or achieving benchmark results.
 
-- Research motivated primarily by the popularity of a particular technology or research direction, rather than by an underlying scientific or clinical problem.
+- Research motivated primarily by the popularity of a particular technology or research direction.
 
 - Short-term research experiences primarily intended to support applications to college, graduate school, medical school, or residency programs.
 
