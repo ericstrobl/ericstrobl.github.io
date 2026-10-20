@@ -11,8 +11,11 @@ main:
   # - title: "Publications"
   #  url: /publications/
 
-  - title: "Working with Me"
-    url: /workingwithme/    
+  - title: "For Students"
+    url: /forstudents/    
+
+  - title: "For Editors"
+    url: /foreditors/   
 
   # - title: "Teaching"
   #   url: /teaching/    
