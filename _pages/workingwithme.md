@@ -22,36 +22,40 @@ discuss potential research opportunities.
 
 ## Who I Work Best With
 
-I particularly enjoy working with students who:
+My research group is generally a good fit for students who:
 
-- Are intellectually curious and excited about discovering something previously unknown.
+- Enjoy examining established assumptions and considering alternative approaches to scientific problems.
 
-- Enjoy questioning established assumptions and approaching familiar scientific problems from very different perspectives.
+- Are interested in understanding the reasoning behind different methods and asking unconventional scientific questions.
 
-- Like understanding why things work and are comfortable discussing and challenging ideas, including my own.
+- Are motivated by the potential clinical applications of their work, including identifying therapeutic targets, improving treatment decisions, and generating clinically useful knowledge.
 
-- Care about the potential clinical impact of their research, whether through identifying therapeutic targets, improving treatment decisions, or uncovering clinically actionable knowledge.
+- Are interested in both developing ideas and carrying out the mathematical, computational, or empirical work needed to evaluate them.
 
-- Combine original thinking with strong execution. They enjoy not only developing ideas but also doing the mathematical, computational, and empirical work needed to turn them into concrete results.
+- Are willing to work through technical challenges and follow projects through to completion.
 
-- Take ownership of their projects, persist through technical difficulties, and follow their work through to completion.
+Students in my group generally begin with computational biomedical discovery, working on specific scientific or clinical questions using real-world data. This experience helps students develop scientific judgment, understand the limitations of existing methods, and identify problems that may require new methodological approaches.
 
-Students interested in foundational methods development or computational biomedical discovery are equally welcome. I do not expect students to arrive with all these skills already developed, but I hope they are interested in cultivating them.
+Students who become interested in foundational methods development may subsequently pursue that direction. I generally prefer this progression because experience with biomedical research problems provides a useful foundation for deciding which new statistical or computational methods are worth developing. Students are not expected to pursue methods development, however, and can focus on computational biomedical discovery.
 
-I view methodological innovation as a means to an end, not an end in itself. Even my more theoretical work is motivated by eventual clinical applications. I therefore encourage students to think not only about what makes an approach mathematically or computationally interesting, but also about what it could ultimately contribute to human health.
+I do not expect incoming students to have already developed all the skills described above, but I do expect an interest in developing them.
 
 ## Who Might Be Happier Elsewhere
 
-My group may be less suitable for students who prefer:
+The following areas are generally not the primary focus of my research group:
 
-- Developing increasingly sophisticated algorithms or theoretical frameworks without a clear path toward clinically meaningful applications.
+- Primarily descriptive studies of disease, such as characterizing molecular profiles, identifying imaging patterns, or documenting associations, without a clear connection to potential improvements in treatment or clinical care.
 
-- Generating and discussing research ideas much more than carrying out the technical work required to test and complete them.
+- Development of algorithms or theoretical frameworks without a clear connection to potential clinical applications.
 
-- Large-scale software engineering, infrastructure development, or building computational platforms as the main research objective.
+- Research centered primarily on conceptual exploration rather than the implementation, evaluation, and completion of research projects.
 
-- Research focused primarily on improving performance or achieving state-of-the-art benchmark results, rather than clinically meaningful discoveries.
+- Large-scale software engineering, infrastructure development, or computational platform development as the main research objective.
 
-- Research motivated mainly by the popularity of a particular technology or research trend, rather than by a compelling scientific or clinical question.
+- Research focused primarily on improving predictive performance or achieving benchmark results, rather than addressing a substantive scientific or clinical question.
 
-Different students thrive in different research environments, and I want to be transparent about the priorities of my group. I am happy to use established methods, emerging technologies, and software engineering when they serve an important scientific or clinical purpose. What matters most to me is the underlying question, the originality and rigor of the work, and its potential clinical utility. I hope this description helps prospective students determine whether my research approach aligns with their interests and find an environment where they can thrive.
+- Research motivated primarily by the popularity of a particular technology or research direction, rather than by an underlying scientific or clinical problem.
+
+These are all perfectly reasonable research interests, and students who wish to focus on them may find other faculty whose research programs are better suited to their goals. The above distinctions concern the primary objectives of research projects, rather than restrictions on particular methods or technologies. Descriptive analyses, established methods, emerging technologies, and software engineering can all be important components of my research when they contribute to a clinical objective.
+
+I hope this information helps prospective students assess whether their research interests and preferred working styles align with the opportunities available in my group.
