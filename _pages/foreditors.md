@@ -1,4 +1,9 @@
-
+---
+layout: archive
+title: "For Editors"
+permalink: /foreditors/
+author_profile: true
+---
 
 I am particularly interested in reviewing manuscripts in the following areas:
 
@@ -11,3 +16,5 @@ I am particularly interested in reviewing manuscripts in the following areas:
 - **Innovative analyses of psychiatric randomized controlled trials**: New approaches to analyzing psychiatric clinical trials, including treatment effect heterogeneity, outcome learning, treatment-response phenotypes, and alternative methods for detecting and interpreting treatment effects.
 
 My primary reviewing interests are in fundamental methodological advances, methods developed for specific biomedical problems, and innovative analyses that provide new insights into psychiatric treatments.
+
+Please do not invite me to review manuscripts solely because they involve computational methods or machine learning. My expertise is concentrated in the areas listed above, and I am not necessarily an appropriate reviewer for computational research outside these areas.
