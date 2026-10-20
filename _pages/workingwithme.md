@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Students"
-permalink: /students/
+title: "Working with Me"
+permalink: /workingwithme/
 author_profile: true
 ---
 
