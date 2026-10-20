@@ -56,6 +56,8 @@ The following areas are generally not the primary focus of my research group:
 
 - Research motivated primarily by the popularity of a particular technology or research direction, rather than by an underlying scientific or clinical problem.
 
+- Short-term research experiences primarily intended to support applications to college, graduate school, medical school, or residency programs.
+
 These are all perfectly reasonable research interests, and students who wish to focus on them may find other faculty whose research programs are better suited to their goals. The above distinctions concern the primary objectives of research projects, rather than restrictions on particular methods or technologies. Descriptive analyses, established methods, emerging technologies, and software engineering can all be important components of my research when they contribute to a clinical objective.
 
 I hope this information helps prospective students assess whether their research interests and preferred working styles align with the opportunities available in my group.
