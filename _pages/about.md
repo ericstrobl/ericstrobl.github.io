@@ -1,3 +1,12 @@
+---
+permalink: /
+title: "Description"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 Welcome! I am an Assistant Professor of Biomedical Informatics at the University of Pittsburgh and a practicing child and adolescent psychiatrist in the Center for Autism and Developmental Disorders. My research develops computational methods for biomedical and clinical problems, with an emphasis on causal discovery and inference. A recurring feature of this work is to formulate methods around the scientific question and available evidence rather than assuming a fixed statistical representation in advance.
 
 This has led to methods for identifying patient-specific root causes of disease, learning outcomes for prediction and treatment-effect detection, and addressing latent confounding in observational studies. The overall goal is to improve causal and predictive analysis of disease in ways that can support better treatment decisions and patient outcomes.
