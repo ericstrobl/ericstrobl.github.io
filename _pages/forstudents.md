@@ -38,26 +38,22 @@ Students in my group generally begin with computational biomedical discovery, wo
 
 Students who become interested in foundational methods development may subsequently pursue that direction. I generally prefer this progression because experience with biomedical research problems provides a useful foundation for deciding which new statistical or computational methods are worth developing. Students are not expected to pursue methods development, however, and can focus on computational biomedical discovery.
 
-I do not expect incoming students to have already developed all the skills described above, but I do expect an interest in developing them.
-
 ## Who Might Be Happier Elsewhere
 
-The following areas are generally not the primary focus of my research group:
+The following areas are generally not the focus of my research group:
 
-- Primarily descriptive studies of disease, such as characterizing molecular profiles, identifying imaging patterns, or documenting associations.
+- Descriptive studies of disease, such as characterizing molecular profiles, identifying imaging patterns, or documenting associations.
 
 - Development of algorithms or theoretical frameworks without a clear connection to potential clinical applications.
 
-- Research centered primarily on conceptual exploration rather than the implementation, evaluation, and completion of research projects.
+- Research centered on conceptual exploration rather than the implementation, evaluation, and completion of research projects.
 
 - Large-scale software engineering, infrastructure development, or computational platform development as the main research objective.
 
-- Research focused primarily on improving predictive performance or achieving benchmark results.
+- Research focused on improving predictive performance or achieving benchmark results.
 
-- Research motivated primarily by the popularity of a particular technology or research direction.
+- Research motivated by the popularity of a particular technology or research direction.
 
-- Short-term research experiences primarily intended to support applications to college, graduate school, medical school, or residency programs.
+- Short-term research experiences intended to support applications to college, graduate school, medical school, or residency programs.
 
-These are all perfectly reasonable research interests, and students who wish to focus on them may find other faculty whose research programs are better suited to their goals. The above distinctions concern the primary objectives of research projects, rather than restrictions on particular methods or technologies. Descriptive analyses, established methods, emerging technologies, and software engineering can all be important components of my research when they contribute to a clinical objective.
-
-I hope this information helps prospective students assess whether their research interests and preferred working styles align with the opportunities available in my group.
+These are all perfectly reasonable research interests, and students who wish to focus on them may find other faculty whose research programs are better suited to their goals. I hope this information helps prospective students assess whether their research interests and preferred working styles align with the opportunities available in my group.
